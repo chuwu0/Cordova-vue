@@ -4,7 +4,18 @@
     "uninstalled": []
   },
   "config_munge": {
-    "files": {}
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": []
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "UIBackgroundModes": []
+        }
+      }
+    }
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {

@@ -335,6 +335,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"HelloCordova/Plugins/cordova-plugin-mfp\"",
+					"\"HelloCordova/Plugins/cordova-plugin-mfp\"",
+					"\"HelloCordova/Plugins/cordova-plugin-mfp-push\"",
+				);
 			};
 			name = Debug;
 		};
@@ -358,6 +364,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.cordova.hellocordova;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"HelloCordova/Plugins/cordova-plugin-mfp\"",
+					"\"HelloCordova/Plugins/cordova-plugin-mfp\"",
+					"\"HelloCordova/Plugins/cordova-plugin-mfp-push\"",
+				);
 			};
 			name = Release;
 		};

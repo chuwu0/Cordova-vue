@@ -14,6 +14,18 @@
             }
           ]
         }
+      },
+      "config.xml": {
+        "parents": {
+          "/*": []
+        }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/manifest": [],
+          "/manifest/application": [],
+          "/manifest/application/activity": []
+        }
       }
     }
   },
